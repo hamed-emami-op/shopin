@@ -30,15 +30,19 @@ const Login = () => {
         console.error(error);
       });
   };
+  sessionStorage;
   return (
-    <div className="pt-20 h-screen bg-gradient-to-b from-[#0F0C29] via-[#302B63] to-[#24243E] w-full flex justify-center items-center " >
-      <div className="backdrop-blur-3xl px-[35em] pb-40 pt-28 rounded-3xl flex justify-center items-center  border-4 border-white/30 bg-white/10">
+    <div
+      className="pt-20 h-screen w-full flex justify-center items-center "
+      style={{ backgroundImage: "url(/index.svg)" }}
+    >
+      <div className="backdrop-blur-md px-[35em] pb-40 pt-28 rounded-3xl flex justify-center items-center  border-4 border-white/30">
         <div className="w-[30em] h-[34em] bg-white/10 border border-white/30 rounded-xl backdrop-blur-md shadow-lg px-10 py-8 text-white ">
-          <h2 className="pb-4 font-semibold">LOGIN</h2>
+          <h2 className="pb-4 font-semibold text-4xl">LOGIN</h2>
           <form onSubmit={handleSubmit}>
             <p>Email</p>
             <input
-              className=" rounded-md w-full h-9 pl-2 mb-10 outline-white"
+              className=" rounded-md w-full h-9 pl-2 mb-10 outline-white text-black"
               type="email"
               placeholder="Email"
               value={email}
@@ -46,7 +50,7 @@ const Login = () => {
             />
             <p>Password</p>
             <input
-              className=" rounded-md w-full h-9 pl-2 outline-white"
+              className=" rounded-md w-full h-9 pl-2 outline-white text-black"
               type="password"
               placeholder="Password"
               value={password}

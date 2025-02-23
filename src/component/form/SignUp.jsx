@@ -112,7 +112,7 @@ export default function SignUp() {
                 </defs>
               </svg>
             </button>
-            <button onClick={""}>
+            <button>
               <svg
                 width="42"
                 height="42"
@@ -137,7 +137,7 @@ export default function SignUp() {
                 </defs>
               </svg>
             </button>
-            <button onClick={""}>
+            <button>
               <svg
                 width="42"
                 height="42"
@@ -171,7 +171,7 @@ export default function SignUp() {
           </div>
         </div>
         <svg
-          className=" -mt-20 -ml-32"
+          className=" -mt-20 -ml-32 "
           width="302"
           height="302"
           viewBox="0 0 302 302"

@@ -1,18 +1,23 @@
 import { useEffect, useState } from "react";
-import { auth, db } from "../firebase/Firebase"; // فایل تنظیمات Firebase
-import { doc, getDoc } from "firebase/firestore";
-import { signOut } from "firebase/auth";
+import { db } from "../firebase/Firebase";
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import { getAuth, signOut } from "firebase/auth";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
+import { useNavigate } from "react-router-dom";
+
 const Profile = () => {
+  const auth = getAuth();
+  const navigate = useNavigate();
   const [user, setUser] = useState(null);
   const [profile, setProfile] = useState(null);
+
   useEffect(() => {
     const currentUser = auth.currentUser;
     if (currentUser) {
       setUser(currentUser);
       fetchProfile(currentUser.uid);
     }
-  }, []);
+  }, [auth]);
 
   const fetchProfile = async (uid) => {
     const userDoc = await getDoc(doc(db, "users", uid));
@@ -20,13 +25,11 @@ const Profile = () => {
       setProfile(userDoc.data());
     }
   };
+
   const saveProfile = async (uid, name, avatar) => {
-    await setUser(
+    await setDoc(
       doc(db, "users", uid),
-      {
-        name: name,
-        avatar: avatar,
-      },
+      { name: name, avatar: avatar },
       { merge: true }
     );
   };
@@ -39,20 +42,26 @@ const Profile = () => {
   };
 
   const logout = async () => {
-    await signOut(auth);
-    window.location.reload();
+    signOut(auth)
+      .then(() => {
+        console.log("کاربر از سیستم خارج شد.");
+        localStorage.clear();
+        indexedDB.databases().then((dbs) => {
+          dbs.forEach((db) => indexedDB.deleteDatabase(db.name));
+        });
+        navigate("/login");
+      })
+      .catch((error) => console.error("مشکل در خروج:", error));
   };
 
   if (!user) return <p>لطفاً وارد شوید</p>;
-  console.log(user);
-  
+
   return (
-    <div className="">
-      <h2 className=" absolute mt-28 bg-white p-2 w-60 rounded-e-3xl font-semibold italic">{user.email}</h2>
-      <div className={`w-full h-80 bg-black bg-no-repeat ${``}`}>
-        {saveProfile}
-      </div>
-      <div></div>
+    <div>
+      <h2>{user.email}</h2>
+      <button onClick={logout} className="bg-red-500 text-white p-2 rounded">
+        خروج
+      </button>
     </div>
   );
 };

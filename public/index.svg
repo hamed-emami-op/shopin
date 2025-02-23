@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" preserveAspectRatio="xMidYMid" width="500" height="350" style="shape-rendering: auto; display: block; background: rgb(11, 19, 29);" xmlns:xlink="http://www.w3.org/1999/xlink"><g style="transform:translate(250.0px,175.0px) scale(-1,-1) translate(-250.0px,-175.0px)"><style type="text/css">
+  @keyframes ld-speed-dash {
+    0% { transform: translate(0,-711.83px); }
+    100% { transform: translate(0,711.83px); }
+  }
+  .ld.ld-speed-dash {
+    animation: ld-speed-dash 3.0303030303030303s linear infinite;
+  }
+</style>
+<defs>
+  <filter id="ldbf1" filterUnits="userSpaceOnUse" x="0" y="-145.00000000000003" width="30.41" height="145.00000000000003">
+    <feGaussianBlur stdDeviation="1.60" result="blur1"></feGaussianBlur>
+    <feMorphology operator="dilate" radius="0.40" in="SourceGraphic" result="dilate"></feMorphology>
+    <feComponentTransfer in="dilate" result="dark">
+    <feFuncR type="linear" slope="0.33"></feFuncR>
+    <feFuncG type="linear" slope="0.33"></feFuncG>
+    <feFuncB type="linear" slope="0.33"></feFuncB>
+    </feComponentTransfer>
+    <feGaussianBlur stdDeviation="0.80" in="dark" result="blur2"></feGaussianBlur>
+    <feMerge>
+      <feMergeNode in="blur1"></feMergeNode>
+      <feMergeNode in="blur2"></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+</defs>
+<g transform="translate(250,175)">
+  <g style="transform:rotate(45deg)">
+    <g transform="translate(11.99,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-86.76" stroke="#acecff" stroke-width="2" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.25s;animation-duration:3.03s"></line>
+</g><g transform="translate(174.85,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-46.02" stroke="#ff6d6d" stroke-width="1.32" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -2.24s;animation-duration:1.01s"></line>
+</g><g transform="translate(-12.91,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-90.61" stroke="#acecff" stroke-width="1.90" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -2.44s;animation-duration:1.01s"></line>
+</g><g transform="translate(78.77,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-93.93" stroke="#ff6d6d" stroke-width="0.85" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.48s;animation-duration:2.02s"></line>
+</g><g transform="translate(-11.84,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-88.88" stroke="#ff6d6d" stroke-width="0.78" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.28s;animation-duration:3.03s"></line>
+</g><g transform="translate(217.46,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-85.38" stroke="#ff6d6d" stroke-width="1.94" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.85s;animation-duration:3.03s"></line>
+</g><g transform="translate(-5.70,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-35.48" stroke="#ff6d6d" stroke-width="1.71" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -2.48s;animation-duration:2.02s"></line>
+</g><g transform="translate(100.21,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-49.16" stroke="#b5ffb7" stroke-width="0.91" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.03s;animation-duration:3.03s"></line>
+</g><g transform="translate(-157.65,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-92.13" stroke="#ff6d6d" stroke-width="0.54" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.88s;animation-duration:2.02s"></line>
+</g><g transform="translate(13.58,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-77.11" stroke="#b5ffb7" stroke-width="0.46" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.94s;animation-duration:1.01s"></line>
+</g><g transform="translate(-172.01,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-100.11" stroke="#b5ffb7" stroke-width="1.57" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -2.77s;animation-duration:2.02s"></line>
+</g><g transform="translate(-87.74,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-62.27" stroke="#acecff" stroke-width="1.65" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.95s;animation-duration:2.02s"></line>
+</g><g transform="translate(59.93,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-77.68" stroke="#acecff" stroke-width="1.04" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.45s;animation-duration:1.01s"></line>
+</g><g transform="translate(189.04,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-47.63" stroke="#b5ffb7" stroke-width="0.04" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.04s;animation-duration:1.01s"></line>
+</g><g transform="translate(-144.72,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-45.35" stroke="#acecff" stroke-width="1.33" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.64s;animation-duration:3.03s"></line>
+</g><g transform="translate(138.67,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-59.77" stroke="#b5ffb7" stroke-width="0.16" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.57s;animation-duration:1.01s"></line>
+</g><g transform="translate(-101.76,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-71.06" stroke="#ff6d6d" stroke-width="0.53" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.47s;animation-duration:3.03s"></line>
+</g><g transform="translate(-154.14,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-46.48" stroke="#ff6d6d" stroke-width="1.25" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.39s;animation-duration:2.02s"></line>
+</g><g transform="translate(-105.27,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-35.32" stroke="#acecff" stroke-width="1.07" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.85s;animation-duration:2.02s"></line>
+</g><g transform="translate(114.28,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-58.51" stroke="#ff6d6d" stroke-width="0.24" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.50s;animation-duration:3.03s"></line>
+</g><g transform="translate(246.42,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-35.07" stroke="#b5ffb7" stroke-width="1.06" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.81s;animation-duration:1.01s"></line>
+</g><g transform="translate(-20.68,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-53.15" stroke="#acecff" stroke-width="1.71" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -2.94s;animation-duration:3.03s"></line>
+</g><g transform="translate(-36.41,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-43.67" stroke="#ff6d6d" stroke-width="1.94" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.43s;animation-duration:2.02s"></line>
+</g><g transform="translate(-75.84,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-29.30" stroke="#ff6d6d" stroke-width="0.89" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.45s;animation-duration:2.02s"></line>
+</g><g transform="translate(-42.99,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-61.07" stroke="#ff6d6d" stroke-width="1.70" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.14s;animation-duration:2.02s"></line>
+</g><g transform="translate(-215.83,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-42.27" stroke="#b5ffb7" stroke-width="1.61" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.04s;animation-duration:3.03s"></line>
+</g><g transform="translate(-47.90,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-97.09" stroke="#b5ffb7" stroke-width="0.52" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -0.60s;animation-duration:1.01s"></line>
+</g><g transform="translate(131.45,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-72.65" stroke="#acecff" stroke-width="1.66" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -2.86s;animation-duration:2.02s"></line>
+</g><g transform="translate(212.17,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-84.73" stroke="#ff6d6d" stroke-width="1.89" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -2.29s;animation-duration:2.02s"></line>
+</g><g transform="translate(128.85,0)">
+<line x1="15" x2="15" y1="-14.50" y2="-99.15" stroke="#ff6d6d" stroke-width="0.54" stroke-linecap="round" class="ld ld-speed-dash" filter="url(#ldbf1)" style="animation-delay: -1.54s;animation-duration:1.01s"></line>
+</g>
+  </g>
+</g>
+<g></g></g><style type="text/css"></style><!-- [ldio] generated by https://loading.io --></svg>
